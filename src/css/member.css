@@ -1,0 +1,21 @@
+.member-container {
+    padding: 10px;
+    border: solid 1px gainsboro;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.member {
+    background-color: gainsboro;
+    padding: 15px;
+    border-radius: 100%;
+    margin: 10px;
+}
+
+.rest {
+    display: flex;
+}
+
+.rest2 {
+    display: flex;
+}

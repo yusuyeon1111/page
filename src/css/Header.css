@@ -1,0 +1,66 @@
+.header {
+    display: flex;
+    justify-content: space-between; /* 요소 사이의 공간을 최대로 확장하여 부모 요소를 오른쪽으로 정렬합니다. */
+    align-items: center; /* 요소를 수직으로 가운데 정렬합니다. */
+}
+
+.weather-container {
+    display: flex; /* 내부 요소를 가로로 배열하기 위해 flex를 사용합니다. */
+    align-items: center; /* 요소를 수직으로 가운데 정렬합니다. */
+}
+
+.weather {
+    background-color: #002060;
+    width: 120px;
+    height: 150px;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    color: white;
+    text-align: center;
+}
+
+.icon{
+    width: 120px;
+    height: 150px;
+    background-color: #4974FF;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    text-align: center;
+    color: white;
+}
+.logo {
+    width: 210px;
+    height: 80px;
+}
+
+.welcome {
+    margin-left: 80px;
+    font-size: 30px;
+    color: #002060;
+    font-weight: bold;
+}
+
+h1 {
+    height: 100px;
+  }
+  
+  h1 span {
+    position: relative;
+    top: 10px;
+    display: inline-block;
+    font-family: "SEBANG Gothic Bold";
+    font-size: 80px;
+    color: #4974FF;
+    text-shadow: 0 1px 0 #CCC,
+                 0 2px 0 #CCC,
+                 0 3px 0 #CCC,
+                 0 4px 0 #CCC,
+                 0 5px 0 #CCC,
+                 0 6px 0 transparent,
+                 0 7px 0 transparent,
+                 0 8px 0 transparent,
+                 0 9px 0 transparent,
+                 0 10px 10px rgba(0, 0, 0, .4);
+  }
+  
+

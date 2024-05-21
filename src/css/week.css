@@ -1,0 +1,63 @@
+
+body {
+    font-family: "SEBANG Gothic Bold";
+    
+}
+
+.week-container {
+    display: flex;
+    justify-content: center; /* 수평 가운데 정렬 */
+    align-items: center; /* 수직 가운데 정렬 */
+    border-radius: 20px;
+    border: solid 1px gainsboro;
+    margin-top: 40px;
+  }
+  
+  .week-container > div {
+    margin: 0 5px; /* 각 요일 사이의 간격 조정 */
+    text-align: center; /* 텍스트 가운데 정렬 */
+    margin: 10px;
+    border: 1px solid gainsboro;
+  }
+  
+
+.week-Sunday {
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.week-Monday {
+    border-radius: 10px;
+    padding: 30px;
+}
+.week-Tuesday {
+    border-radius: 10px;
+    padding: 30px;
+}
+.week-Wednesday {
+    border-radius: 10px;
+    padding: 30px;
+}
+.week-Thursday {
+    border-radius: 10px;
+    padding: 30px;
+}
+.week-Friday {
+    border-radius: 10px;
+    padding: 30px;
+}
+.week-Saturday {
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.day {
+    font-size: 25px;
+}
+
+.week-icon {
+    justify-content: flex-end;
+    align-items: right;
+    display: flex;
+}
+

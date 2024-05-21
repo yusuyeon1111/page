@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "SEBANG Gothic Bold";
+  src: url("./fonts/SEBANG\ Gothic\ Bold.ttf");
+}
+
+@font-face {
+  font-family: "SEBANG Gothic OTF Bold";
+  src: url("./fonts/SEBANG\ Gothic\ OTF\ Bold.otf");
+}
+
+@font-face {
+  font-family: "SEBANG Gothic ORF";
+  src: url("./fonts/SEBANG\ Gothic\ OTF.otf");
+}
+
+@font-face {
+  font-family: "SEBANG Gothic";
+  src: url("./fonts/SEBANG\ Gothic.ttf");
+}
+
+body {
+  font-family: "SEBANG Gothic Bold";
+  margin-left: 30px;
+  margin-right: 30px;
+}
